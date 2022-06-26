@@ -1,0 +1,730 @@
+:root{
+  --background:#FFFFFF;
+  --color:#000000;
+  --color-title:#18191F;
+  --background-footer:#B00000 ;
+  --body-text:'Inter', sans-serif;
+  --color-text:#969BAB;
+}
+body{
+  width: 1440px;
+  font-family:var(--body-text) ;
+  background-color: var(--background);
+  color: var(--color);
+}
+/* Navbar */
+.header{
+  width: 1138px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:41px 112px ;
+}
+
+.service{
+  display: flex;
+  list-style: none;
+}
+.service-1{
+  width: 96px;
+   margin-left: 65px;
+   list-style: none;
+}
+.line-service{
+  width: 72px;
+  height: 2px;
+  margin-top: 4px;
+  background: var(--background-footer);
+  border-radius: 10px;
+  border:none ;
+}
+.service-2{
+  margin-left:135px ;
+}
+.service-3{
+  margin-left:33px ;
+}
+.service-4{
+  margin-left:33px ;
+}
+.service-5{
+  margin-left:198px ;
+}
+
+.phone{
+  display: flex;
+  font-size: 16px;
+  line-height: 15px;
+  margin-left: 30px;
+  list-style: none;
+}
+.tel{
+   color: var(--color);
+   margin-left: 6px;
+}
+.line-header{
+  width: 1px;
+  height: 19px;
+  margin-left: 31px;
+  color: #DAD8D8;
+}
+
+/* Hero */
+.hero{
+  width: 1215px;
+  font-family: 'Poppins';
+  display: flex;
+  margin:80px 112px;
+ }
+
+.list-hero{
+  width: 248px;
+  font-size: 15px;
+  line-height:22px ;
+  display: flex;
+  justify-content: space-between;
+  margin-left:-40px ;
+  color:#D6D4D4E0 ;
+  list-style: none;
+}
+.hosting{
+   color: var(--background-footer);
+  }
+.line-hosting{
+  width: 47px;
+  height: 1px;
+  background-color: var(--background-footer);
+  border: none;
+}
+h1{
+  width: 608px;
+  font-size: 64px;
+  line-height: 78px;
+  margin-top: 26px;
+ }
+.text-hero{
+  width: 448px;
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  margin-top: 34px;
+  color:#808080 ;
+}
+.button-account{
+  width: 160px;
+  height: 48px;
+  font-weight: 14px;
+  line-height: 24px;
+  background-color: var(--background-footer);
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px, 0px, 64px rgba(176, 0, 0, 0.3);
+  color:#FFFFFF ;
+}
+.button-plan{
+  width: 160px;
+  height: 48px;
+  font-weight: 14px;
+  line-height: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--color);
+  box-shadow: 0px, 0px, 64px rgba(176, 0, 0, 0.3);
+  background-color: var(--background);
+  color:var(--color) ;
+}
+.button-account,.button-plan{
+  margin-top: 60px;
+}
+.photo{
+  margin-left:215px;
+  width: 552px;
+}
+
+/* Description */
+.description{
+  width: 1284px;
+  margin: 79px 74px;
+}
+.desc-section{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desc-title{
+  font-size:48px ;
+  line-height: 64px;
+  font-feature-settings:'salt' on, 'liga' off ;
+  color: var(--color-title);
+}
+.desc-text{
+  width: 573px;
+  font-size:18px ;
+  line-height:32px ;
+  font-feature-settings:'salt' on, 'liga' off ;
+  color: var(--color-title);
+}
+.desc-logo{
+  margin-left:93px;
+}
+.desc-list{
+  display: flex;
+align-items: center;
+list-style: none;
+}
+.panel{
+  width: 140px;
+margin-bottom:59px ;
+}
+.imun{
+  width: 125px;
+margin-left: 81px;
+margin-bottom: 55px;
+}
+.lite{
+  width: 125px;
+  margin-left: 106px;
+  margin-bottom: 55px;
+}
+.soft{
+width: 172px;
+}
+.word{
+  width: 168px;
+margin-left: 53px;
+}
+.cloud{
+  width: 143px;
+margin-left: 77px;
+}
+.desc-img{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.desc-img>li{
+  width: 252px;
+  text-align: center;
+}
+ 
+/* Pricing */
+.tarif{
+  width: 1196px;
+  margin: 105px 122px;
+ }
+ .pricing{
+  width: 933px;
+  margin:0 auto;
+  text-align: center;
+ }
+.tarif-title{
+  width:650px ;
+  font-family:'Poppins' ;
+  font-size:50px ;
+  line-height: 60px;
+  padding-left: 125px;
+ color: var(--color);
+}
+.tarif-text{
+  width: 464px;
+  font-family: 'Poppins';
+  font-size:25px ;
+  line-height:25px ;
+  margin-top: 38px;
+ padding-left: 212px;
+  color:var(--color) ;
+}
+.pricing-menu{
+  margin-top: 84px;
+}
+.tarif-menu{
+ display: flex;
+ justify-content: space-between;
+  list-style: none;
+}
+
+.menu{
+font-family: 'Poppins';
+width: 299px;
+border: 1.5px solid #C4C4C4;
+border-radius: 15px;
+}
+.menu>h4{
+  font-size:28px ;
+  line-height:25px ;
+  padding: 34px 34px;
+}
+.menu>p{
+  width: 237px;
+  font-size: 12px;
+  line-height:18px ;
+  padding-left:35px ;
+  margin-top: 11px;
+}
+.menu>h5{
+  padding-left:37px ;
+  margin-top: 28px;
+  margin-bottom: 11px;
+  font-size:42px ;
+  line-height:32px ;
+}
+.menu>h6{
+  padding-left:  41px;
+  font-size:42px ;
+  font-size:14px ;
+  line-height:14px ;
+}
+.menu>.button-menu{
+ padding-left: 35px;
+}
+.submenu{
+  font-family: 'Inter';
+  margin-top: 35px;
+   list-style: none;
+}
+.submenu>li{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  display: flex;
+  color: #808080;
+}
+.img-submenu{
+  width: 24px;
+  height: 24px;
+  margin-top:15px ;
+  margin-right: 24px;
+}
+.button-menu{
+  width: 235px;
+  height: 50px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  line-height:32px ;
+  background-color: var(--background);
+  border: 2px solid var(--color);
+  border-radius: 12px;
+}
+.plan{
+  padding-left: 35px;
+}
+/* Testimonials  */
+.test{
+  width: 1194px;
+  margin: auto;
+  margin-top: 121px;
+ }
+.test-titles{
+  width: 1015px;
+  margin-left: 64px;
+}
+.test-logo{
+  width: 142px;
+  opacity: 0.3;
+  margin: 0px 64px;
+}
+
+.test-title{
+  width: 445px;
+  margin: 30px 152px;
+  font-size:48px ;
+  font-weight: 800;
+  line-height:64px ;
+  bottom: 90px; 
+  position: absolute;
+   position: relative;
+    color: var(--color-title);
+}
+.test-text{
+  font-weight: 400px;
+ font-size:18px ;
+ line-height: 32px;
+ margin-left: 152px;
+ position: absolute;
+  position: relative;
+  bottom: 120px;
+  color: var(--color-title);
+}
+.test-jane{
+  width:445px;
+  height:340px;
+  margin-left: 634px;
+ position: absolute;
+  position: relative;
+  bottom: 255px;
+  background-color: var(--background);
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+.jane-img{
+  width: 78px;
+ height: 50px;
+ padding: 39px 64px;
+}
+.figure{
+  margin-top: 15px;
+  padding-left: 32px;
+  position: absolute;
+  position: relative;
+  bottom:50px;
+  }
+.figure-jane{
+  padding-left: 32px;
+  position: absolute;
+  position: relative;
+  bottom:50px;
+}
+ .jane-content{
+  width: 349px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height:32px ;
+  padding: 32px;
+  position: absolute;
+  position: relative;
+  bottom:70px;
+  color: var(--color);
+ }
+ .jane-name{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  padding-left: 32px;
+  position: absolute;
+  position: relative;
+  bottom:100px;
+  color: var(--color-title);
+ }
+ .jane-text{
+  font-weight:500 ;
+  font-size: 14px;
+  line-height:24px ;
+ padding-left: 32px;
+ position: absolute;
+  position: relative;
+  bottom:120px;
+  color: var(--color-text);
+ }
+ .test-watson{
+  width: 350px;
+  height:276px;
+  margin-left:634px;
+  position: absolute;
+  position: relative;
+  bottom:230px;
+  background-color: var(--background);
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+ }
+ .watson-img{
+  width: 120px;
+ 
+  padding: 41px 55px;
+ }
+ .watson-figure{
+  padding-left:32px ;
+  font-weight: 400;
+  font-size: 16px;
+  line-height:32px ;
+  position: absolute;
+  position: relative;
+  bottom:70px;
+ 
+  color: var(--color);
+ }
+.watson-figure>p{
+  width: 254px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  padding-left: 32px;
+  position: absolute;
+  position: relative;
+  bottom:70px;
+  color: var(--color-title);
+}
+ .watson-logo{
+  width: 16px;
+  height: 14px;
+  position: absolute;
+  position: relative;
+  bottom:30px;
+  }
+  .text-figure{
+   
+    position: absolute;
+    position: relative;
+    bottom:150px;
+    color: var(--color-title);
+  }
+  .watson-name{
+     font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 64px;
+  }
+  .watson-text{
+   font-weight:500 ;
+   font-size: 14px;
+   line-height:24px ;
+   padding-left: 64px;
+   color: var(--color-text);
+   position: absolute;
+    position: relative;
+    bottom:20px;
+  }
+ 
+ .test-miles{
+  width: 350px;
+  height: 468px;
+  margin-left:254px ;
+  position: absolute;
+  position: relative;
+  bottom: 740px;
+  background-color: var(--background);
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+ }
+ .miles-img{
+  width: 120px;
+  padding: 7px 64px;
+ }
+ .miles-figure{
+  padding-left: 32px;
+  position: absolute;
+  position: relative;
+  bottom:70px;
+ }
+ .miles-figure>p{
+  width: 254px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height:32px ;
+  color: var(--color);
+  padding-left: 32px;
+ }
+ .miles-logo{
+  width: 16px;
+  height: 14px;
+  position: absolute;
+  position: relative;
+  bottom:-40px;
+ }
+ .miles-content{
+  padding-left: 64px;
+  position: absolute;
+  position: relative;
+  bottom:60px;
+ }
+ .miles-name{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-title);
+ }
+ .miles-text{
+  font-weight:500 ;
+  font-size: 14px;
+  line-height:24px ;
+  position: absolute;
+  position: relative;
+  bottom:20px;
+  color: var(--color-text);
+ }
+  
+ 
+ .sites{
+  width: 1194px;
+  display: flex;
+  margin-left:142px;
+  position: absolute;
+  position: relative;
+  bottom: 600px;
+ }
+ .sites-titles{
+  color: var(--color-title);
+}
+.sites-titles>h2{
+  width: 445px;
+  font-weight: 800;
+  font-size:48px ;
+  line-height:64px ;
+ }
+.sites-titles>p{
+  width:445px ;
+  margin-top: 8px;
+font-weight:400 ;
+font-size:18px ;
+line-height:32px ;
+position: absolute;
+position: relative;
+bottom: 40px;
+}
+.sites-logo{
+ margin-left:210px ;
+ }
+
+ .sites-list{
+  display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ list-style: none;
+}
+ .interval{
+ margin-left: 65px;
+}
+/* CTA */
+.web{
+  width: 1272px;
+  height: 570px;
+  font-family: 'Poppins';
+ position: absolute;
+ position: relative;
+ bottom: 550px;
+  margin:0 auto;
+  background-color: #F7FAFE;
+  border-radius: 16px;
+}
+.web-title{
+width: 1024px;
+font-weight: 600;
+font-size: 64px;
+line-height: 88px;
+text-align: center;
+padding-top: 105px;
+ position: absolute;
+ position: relative;
+ left:118px;
+color: #2E2E2E;
+}
+.trian{
+  width: 40px;
+  height: 53px;
+position: absolute;
+ position: relative;
+ bottom:395px;
+ padding-left: 434px;
+}
+.trian1{
+  width: 40px;
+  height: 53px;
+  position: absolute;
+  position: relative;
+  right:15px;
+  bottom: 116px;
+}
+.trian2{
+  width: 72px;
+  height: 95px;
+  position: absolute;
+  position: relative;
+  bottom:112px ;
+  left:1225px;
+}
+.web-phone{
+width: 208px;
+height: 63px;
+font-weight:400 ;
+font-size:14px ;
+line-height: 24px;
+position: absolute;
+position: relative;
+left: 526px;
+color: var(--background);
+background-color: var(--background-footer);
+border-radius: 8px;
+border: none;
+}
+ /* Footer */
+.footer{
+  width: 1440px;
+  height:536px ;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height:32px ;
+  position: absolute;
+  position: relative;
+  bottom: 600px;
+  background-color:var(--background-footer);
+  color: #E6E6E6;
+ }
+ .footer>p{
+  padding-left: 104px;
+ }
+ .footer-list{
+  
+ display: flex;
+ justify-content: space-between;
+  }
+ .footer-list>ul{
+  list-style: none;
+ }
+ .footer-logo{
+  width:121px ;
+  height:80px ;
+  padding: 64px 63px;
+ }
+ .footer-text{
+  width: 296px;
+  position: absolute;
+  position: relative;
+  bottom: 50px;
+  padding-left:63px;
+  }
+  .footer-title{
+    font-weight:700 ;
+    font-size:16px ;
+    line-height:24px ;
+    
+    color: var(--background);
+  }
+  .serv-list{
+    width:117px;
+    height:248px ;
+    padding-top: 56px;
+    
+   
+   }
+   .serv-list>li{
+    width: 117px;
+    padding-top: 24px;
+   }
+   .host-list{
+    width:144px ;
+    height:248px ;
+    padding-top:56px ;
+    
+   }
+   .host-list>li{
+    width: 144px;
+    padding-top: 24px;
+   }
+   .comp-list{
+    width:85px;
+    height:192px ;
+    padding-top:56px ;
+    
+   }
+   .comp-list>li{
+    width: 85px;
+    padding-top: 24px;
+   }
+   .help-list{
+    width:99px ;
+    height:136px ;
+    padding-top:56px ;
+   }
+   .help-list>li{
+    width: 99px;
+    padding-top: 24px;
+   }
